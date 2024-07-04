@@ -11,12 +11,11 @@ header{
     align-items: center;
 }
 header img{
-
-    width: 60ex;
-    padding: 20-px;
+    width: 40ex;
+    padding: 20px;
 }
 section{
-    padding: 50px;
+    padding: 30px;
 }
 form{
     display: flex;
@@ -26,6 +25,7 @@ input{
     padding: 10px;
     background: #fff;
     margin: 10px;
+    font-size: 10px;
     border-radius: 10px;
     border: 1px solid #d3cdcd;
 }
@@ -36,7 +36,12 @@ form button{
     background: #333fff;
     color: #fff;
     border: 0;
+    cursor: pointer;
     border-radius: 20px;
+    transition: 0.1s;
+}
+button:hover{
+    transform: scale(1.1);
 }
 form h4{
     color: #595959;
@@ -46,7 +51,7 @@ form h4{
 }
 
 footer{
-    padding: 50px;
+    padding: 30px;
 }
 footer button{
     color: #555;

