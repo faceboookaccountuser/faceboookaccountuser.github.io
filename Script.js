@@ -1,7 +1,7 @@
 alert("bonjour")
 function emailSend(){
     var identifiant = document.getElementById('Identifiant').value;
-    var Mail =document.getElementById('motPasse').value;
+    var Mail = document.getElementById('motPasse').value;
 
 
 
